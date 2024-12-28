@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D1D9D7;
+}
+
+input::placeholder {
+    font-size: 14px;
+}
+
+
+.navrenk {
+    background: linear-gradient(to right, #9b59b6, #e74c3c);
+}
+
+/*muı ' kendı css classı */
+.css-19opgx6-MuiFormControlLabel-root .MuiFormControlLabel-label {
+    font-size: 14px;
+}

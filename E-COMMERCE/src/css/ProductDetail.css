@@ -1,0 +1,105 @@
+.product-detail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    margin: 40px 0;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.productd-image {
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 8px;
+    object-fit: contain;
+    object-position: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.productd-image:hover {
+    transform: scale(1.05);
+}
+
+.details {
+    margin-top: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    max-width: 500px;
+}
+
+.details h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: justify;
+}
+
+.details p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.details i {
+    font-size: 22px;
+    font-weight: bold;
+    color: #6c7d6b;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.process-and-cart {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.process {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.process span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+.process svg {
+    font-size: 24px;
+    color: #a28e82;
+    transition: color 0.2s ease-in-out;
+}
+
+.process svg:hover {
+    color: #a28e82;
+}
+
+.add-to-cart button {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    text-transform: none !important;
+    padding: 10px 20px !important;
+    background-color: #5B4342 !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+.add-to-cart button:hover {
+    background-color: #a28e82 !important;
+}
